@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 file_path = "image"
 output = "converted_image"
 
-poppler_path = "poppler-24.08.0\Library\bin"
+poppler_path = r"poppler-24.08.0\Library\bin"
 
 os.makedirs(output, exist_ok=True)
 
